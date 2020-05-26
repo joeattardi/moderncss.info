@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-gtag';
 
 import Layout from '../components/Layout';
 
@@ -23,7 +24,7 @@ export default function Home() {
             laying out your pages with CSS.
           </p>
           <div className={styles.callToAction}>
-            <a href="https://leanpub.com/modern-css">Buy now from Leanpub</a>
+            <OutboundLink href="https://leanpub.com/modern-css">Buy now from Leanpub</OutboundLink>
             <a href="/modern-css-sample.pdf">Sample chapter</a>
           </div>
         </div>
