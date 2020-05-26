@@ -16,7 +16,7 @@
 .hero img {
   width: 100%;
   max-width: 25%;
-  margin: 2rem;
+  margin: 1rem;
   height: 100%;
 }
 
@@ -50,10 +50,29 @@
 }
 
 .author {
-  background: #ffffff;
   padding: 1rem;
 }
 
 .author img {
   width: 200px;
+}
+
+@media screen and (max-width: 650px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero img {
+    width: 200px;
+    max-width: 200px;
+  }
+
+  .call-to-action a {
+    width: auto;
+  }
 }
