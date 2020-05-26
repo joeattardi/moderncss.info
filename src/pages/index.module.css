@@ -1,0 +1,59 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  background: url('/papyrus-dark.png');
+  color: #ffffff;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 4rem;
+  padding: 1rem;
+  text-align: center;
+  color: #f38630;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 25%;
+  margin: 2rem;
+  height: 100%;
+}
+
+.hero .intro {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action a {
+  background: #f38630;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1rem;
+  display: block;
+  width: 20rem;
+  margin: 1rem auto;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.description {
+  padding: 1rem;
+}
+
+.author {
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.author img {
+  width: 200px;
+}

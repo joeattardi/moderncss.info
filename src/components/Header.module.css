@@ -1,0 +1,41 @@
+.header {
+  padding: 0.5rem;
+  background: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.header img {
+  width: 50px;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav a {
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background: #ffffff;
+  color: #000000;
+}

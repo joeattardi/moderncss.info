@@ -1,0 +1,14 @@
+/* https://www.colourlovers.com/palette/92095/Giant_Goldfish */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --background-color: #e0e4cc;
+  --header-color: #f38630;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--background-color);
+}
